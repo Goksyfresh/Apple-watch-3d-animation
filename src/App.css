@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    color: black;
+  font-family: "Poppins", sans-serif;
+
+ 
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 100px;
+    align-items: center;
+}
+nav ul li{
+    display: inline-block;
+    font-size: 16px;
+    list-style: none;
+    margin: 0 25px
+}
+
+.nav--logo>span{
+    font-weight: bold;
+    font-size: 25px;
+}
+.nav--img img{
+    margin: 0 8px;
+    width: 17px;
+}
+hr{
+    width: 90%;
+    opacity: 0.1;
+    margin: 5px auto;
+}
+
+
+.hero--gangan{
+    height: 35vh;
+    position: relative;
+    width: 70%;
+}
+.hero{
+    position: absolute;
+    top: 20%;
+    width: 70%;
+    z-index: 20;
+    margin: 0 30px;
+}
+.heroine--gangan{
+    height: 100vh;
+    position: relative;
+    width: 60%;
+}
+.heroine{
+    position: absolute;
+    top: 40%;
+    left: 90%;
+    width: 75%;
+    z-index: 20;
+}
+
+canvas{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+.cdvsn--title{
+    font-weight: bold;
+    font-size: 32px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+.cdvsn--description{
+    font-size: 18px;
+}
+.cdvsn--pre{
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #c93c16;
+    border: none;
+    cursor: pointer;
+    color: white;
+
+}
+.container3{
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    text-transform: uppercase;
+    font-size: 50px;
+    z-index: 20;
+    position: absolute;
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    
+}
+.apple--link{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+ 
